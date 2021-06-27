@@ -103,6 +103,7 @@
 <style scoped>
     #menu {
         background: #17233d;
+      text-align: left;
     }
 
     .router-link-active {
