@@ -1,13 +1,14 @@
 <template>
     <div id="content">
         <Breadcrumb>
-            <BreadcrumbItem to="/">Home</BreadcrumbItem>
-            <BreadcrumbItem to="/routes">Route</BreadcrumbItem>
+            <BreadcrumbItem to="/">{{$t('breadcrumb.home')}}</BreadcrumbItem>
+            <BreadcrumbItem to="/routes">{{$t('breadcrumb.route')}}</BreadcrumbItem>
+            <BreadcrumbItem >{{$t('breadcrumb.route_list')}}</BreadcrumbItem>
         </Breadcrumb>
         <Row>
-            <Col span="12"> <h1>Route List:</h1></Col>
+            <Col span="12"> <h1 style="width: 100px;height: 40px"></h1></Col>
             <Col span="12" style="text-align:right;position: absolute;top: 30%;right: 0px">
-                <Button type="primary" size="small" @click="addRoute">Add Route</Button>
+                <Button type="primary" size="small" @click="addRoute">{{$t('breadcrumb.addRoute')}}</Button>
             </Col>
         </Row>
         <RouteTable  v-bind:routes="routes"></RouteTable>

@@ -1,9 +1,9 @@
 <template>
     <div>
         <Breadcrumb>
-            <BreadcrumbItem to="/">Home</BreadcrumbItem>
-            <BreadcrumbItem to="/upstreams">Upstream</BreadcrumbItem>
-            <BreadcrumbItem v-if="!edit">Add Upstream</BreadcrumbItem>
+            <BreadcrumbItem to="/">{{$t('breadcrumb.home')}}</BreadcrumbItem>
+          <BreadcrumbItem to="/upstreams">{{$t('breadcrumb.upstream')}}</BreadcrumbItem>
+            <BreadcrumbItem v-if="!edit">{{$t('breadcrumb.addUpstream')}}</BreadcrumbItem>
             <BreadcrumbItem v-else>{{upstreamId}}</BreadcrumbItem>
         </Breadcrumb>
 
@@ -219,7 +219,7 @@
             </FormItem>
 
             <FormItem>
-                <Button type="primary" @click="saveService">Save</Button>
+                <Button type="primary" @click="saveService">{{$t('common.save')}}</Button>
             </FormItem>
         </Form>
         <div v-if="upstreamId">

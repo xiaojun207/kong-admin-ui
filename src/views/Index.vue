@@ -14,14 +14,13 @@
                     <router-view class="router-content"></router-view>
                 </Content>
             </Layout>
-            <Footer><FooterComponent></FooterComponent></Footer>
+<!--            <Footer><FooterComponent></FooterComponent></Footer>-->
         </Layout>
     </div>
 </template>
 <script>
     import Menu from '../components/Menu'
     import HeaderComponent from '../components/Header'
-    import FooterComponent from '../components/Footer'
 
     export default {
         name: 'index',
@@ -30,8 +29,7 @@
         },
         components: {
             Menu,
-            HeaderComponent,
-            FooterComponent
+            HeaderComponent
         },
         mounted() {
         }

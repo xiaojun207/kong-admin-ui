@@ -1,11 +1,12 @@
 <template>
     <div id="content">
         <Breadcrumb>
-            <BreadcrumbItem to="/">Home</BreadcrumbItem>
-            <BreadcrumbItem to="/certificate">Certificate</BreadcrumbItem>
+            <BreadcrumbItem to="/">{{$t('breadcrumb.home')}}</BreadcrumbItem>
+            <BreadcrumbItem to="/certificates">{{$t('breadcrumb.certificate')}}</BreadcrumbItem>
+          <BreadcrumbItem >{{$t('breadcrumb.certificate_list')}}</BreadcrumbItem>
         </Breadcrumb>
         <Row>
-            <Col span="12"> <h1>{{$t('breadcrumb.certificate_list')}}:</h1></Col>
+            <Col span="12"><h1 style="width: 100px;height: 40px"></h1></Col>
             <Col span="12" style="text-align:right;position: absolute;top: 30%;right: 0px">
                 <Button type="primary" size="small" @click="addCertificate">{{$t('breadcrumb.add_certificate')}}</Button>
             </Col>

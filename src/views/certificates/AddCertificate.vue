@@ -2,7 +2,7 @@
     <div>
         <Breadcrumb>
             <BreadcrumbItem to="/">{{$t('breadcrumb.home')}}</BreadcrumbItem>
-            <BreadcrumbItem to="/certificates">Certificate</BreadcrumbItem>
+          <BreadcrumbItem to="/certificates">{{$t('breadcrumb.certificate')}}</BreadcrumbItem>
             <BreadcrumbItem v-if="!edit">{{$t('breadcrumb.add_certificate')}}</BreadcrumbItem>
             <BreadcrumbItem v-else>{{certificateId}}</BreadcrumbItem>
         </Breadcrumb>

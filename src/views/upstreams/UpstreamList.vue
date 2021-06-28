@@ -1,13 +1,14 @@
 <template>
     <div id="content">
         <Breadcrumb>
-            <BreadcrumbItem to="/">Home</BreadcrumbItem>
-            <BreadcrumbItem to="/upstream">Upstream</BreadcrumbItem>
+            <BreadcrumbItem to="/">{{$t('breadcrumb.home')}}</BreadcrumbItem>
+            <BreadcrumbItem to="/upstreams">{{$t('breadcrumb.upstream')}}</BreadcrumbItem>
+          <BreadcrumbItem >{{$t('breadcrumb.upstream_list')}}</BreadcrumbItem>
         </Breadcrumb>
         <Row>
-            <Col span="12"> <h1>Upstream List:</h1></Col>
+            <Col span="12"> <h1 style="width: 100px;height: 40px"></h1></Col>
             <Col span="12" style="text-align:right;position: absolute;top: 30%;right: 0px">
-                <Button type="primary" size="small" @click="addUpstream">Add Upstream</Button>
+                <Button type="primary" size="small" @click="addUpstream">{{$t('breadcrumb.addUpstream')}}</Button>
             </Col>
         </Row>
         <!--<UpstreamTable v-bind:upstreams="upstreams"></UpstreamTable>-->

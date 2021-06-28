@@ -41,25 +41,25 @@ From version 0.3, we support custom headers,so you can use Basic Authentication 
 ### Screenshots
 
 
-![basic info](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/basic_info.png)
+![basic info](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/basic_info.png)
 
-![config](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/config.png)
+![config](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/config.png)
 
-![route list](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/route_list.png)
+![route list](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/route_list.png)
 
-![service list](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/service_list.png)
+![service list](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/service_list.png)
 
-![service detail](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/service_detail.png)
+![service detail](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/service_detail.png)
 
-![upstream list](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/upstream_list.png)
+![upstream list](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/upstream_list.png)
 
-![consumer list](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/consumer_list.png)
+![consumer list](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/consumer_list.png)
 
-![consumer detail](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/consumer_detail.png)
+![consumer detail](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/consumer_detail.png)
 
-![plugin list](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/plugin_list.png)
+![plugin list](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/plugin_list.png)
 
-![certification](https://github.com/pocketdigi/kong-admin-ui/raw/master/docs/images/certificate_add.png)
+![certification](https://github.com/xiaojun207/kong-admin-ui/raw/master/docs/images/certificate_add.png)
 ## Project setup
 ```
 npm install

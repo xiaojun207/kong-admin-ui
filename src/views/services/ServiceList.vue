@@ -2,10 +2,11 @@
     <div id="content">
         <Breadcrumb>
             <BreadcrumbItem to="/">{{$t('breadcrumb.home')}}</BreadcrumbItem>
-            <BreadcrumbItem to="/services">{{$t('breadcrumb.service_list')}}</BreadcrumbItem>
+            <BreadcrumbItem to="/services">{{$t('breadcrumb.service')}}</BreadcrumbItem>
+          <BreadcrumbItem >{{$t('breadcrumb.service_list')}}</BreadcrumbItem>
         </Breadcrumb>
         <Row>
-            <Col span="12"> <h1>{{$t('breadcrumb.service_list')}}:</h1></Col>
+            <Col span="12"> <h1 style="width: 100px;height: 40px"></h1></Col>
             <Col span="12" style="text-align:right;position: absolute;top: 30%;right: 0px">
                 <Button type="primary" size="small" @click="addService">{{$t('breadcrumb.addService')}}</Button>
             </Col>
